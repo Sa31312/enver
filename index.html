@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+		<div class="header">
+		<div class="logo">
+			<a href="#"><img src="images/logo.png"></a>
+		</div>
+		<div class="menu">
+			<ul>
+				<li ><a href="#" class="active">Home</a></li>
+				<li ><a href="#why">Services</a></li>
+				<li ><a href="#projects">Our project</a></li>
+				<li ><a href="#aboutus">About Us</a></li>
+			</ul>
+		</div>
+		<div class="contact">
+			<ul>
+				<li><a href="#">contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="responsive-nav">
+		<div class="logo">
+			<a href="#"><img src="images/logo.png"></a>
+		</div>
+		<div class="responsive-icon">
+			<i class="fa-solid fa-bars-staggered"></i>
+		</div>
+	</div>
+	<section class="hero" id="hero">
+		<div class="hero-left">
+			<img src="images/img.png" class="main">
+			<img src="images/img2.png" class="rec">
+		</div>
+		<div class="hero-right">
+			<div class="hero-back"></div>
+			<div class="hero-text">
+				<h1>
+					Build Your Aswome Plateform
+				</h1>
+				<p>Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</p>
+				<button>Our Services</button>
+				<img src="images/hero2.png" class="forward">
+				<img src="images/hero3.png" class="circle">
+				<img src="images/hero1.png" class="waves">
+				<img src="images/hero4.png" class="plus">
+
+			</div>
+		</div>
+		
+	</section>
+	<section class="why" >
+		<h2 id="why">
+			Why Enveer is  the <br>best choice ?
+		</h2>
+		<p>Watch this one minute video so you understand why you should <br> use our services!</p>
+		<div class="video">
+			<div><i class="fa-solid fa-circle-play video-play"></i></div>
+		</div>
+	</section>
+	<section class="services" >
+		<div class="ser-heading" id="aboutus">
+		<h3>
+			The Service We Provide <br> For You
+		</h3>
+		<a class="addClass" href="#"><img src="images/hero2.png" class="serv-plus"></a>
+		<a class="removeClass" ><img src="images/hero4.png" class="serv-forward"></a>
+		
+	</div>
+	<div class="cards ">
+		<div class="card-back ">
+			
+		</div>
+		<div class="card-1">
+			<i class="fa-solid fa-code development"></i>
+			<h5>Development</h5>
+			<p>Create a platform with the best <br> and coolest quality from us.</p>
+		</div>
+		<div class="card-2">
+			<i class="fa-solid fa-layer-group ui"></i>
+			<h5>UI/UX Designer</h5>
+			<p>We provide UI/UX Design services,<br>  and of course with the best quality .</p>
+		</div>
+
+		<div class="card-3">
+			<i class="fa-solid fa-palette graphic"></i>
+			<h5>Graphic Designer</h5>
+			<p>We provide Graphic Design<br> services, with the best designers.</p>
+		</div>
+
+
+		<div class="card-4">
+			<i class="fa-solid fa-gauge graphic"></i>
+			<h5>Motion Graphik</h5>
+			<p>Create a platform with the best <br> and coolest quality from us.</p>
+		</div>
+		<div class="card-5">
+			<i class="fa-solid fa-camera development"></i>
+			<h5>Photography</h5>
+			<p>Create a platform with the best <br> and coolest quality from us.</p>
+		</div>
+		<div class="card-6">
+			<i class="fa-solid fa-video ui"></i>
+			<h5>Videography</h5>
+			<p>Create a platform with the best<br> and coolest quality from us.</p>
+		</div>
+		
+	</div>
+	<img src="images/hero4.png" class="serv-forward2">
+	</section>
+	<section class="our-portfiolo" id="projects">
+		<div class="portfolio-heading">
+		<h4>
+			Our aswesome portfolio
+		</h4>	
+		<img src="images/hero3.png" class="portfolio-circle">
+		</div>
+		<div class="portfolio-projects">
+			<img src="images/portfolio1.png" class="porject-1">
+			<img src="images/portfolio2.png" class="porject-2">
+			<img src="images/portfolio3.png" class="porject-3">
+			<img src="images/hero1.png" class="portfolio-waves">
+		</div>
+		
+	</section>
+	<section class="contact-us" id="contact">
+		<div class="heading-contact"><h5>
+			Contact Us for the service<br> you want to us
+		</h5>
+		<button>Contact Us</button>
+	</div>
+	<img src="images/hero3.png" class="portfolio-circle">
+	<img src="images/hero4.png" class="contact-plus">
+	</section>
+	<footer>
+		<div class="logo">
+			<a href="#"><img src="images/logo.png"></a>
+		</div>
+		<div class="menu">
+			<ul>
+				<li ><a href="#" >support</a></li>
+				<li ><a href="#">Privacy Policy</a></li>
+				<li ><a href="#">term & condition</a></li>
+				
+			</ul>
+		</div>
+		<div class="contact">
+			<ul>
+				<li>&copy;2020 Ever, &#64; all right reserved</li>
+			</ul>
+		</div>
+	</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+	<script type="text/javascript">
+		
+	$(document).ready(function(){
+		$('.removeClass').on("click",function(){
+			$(".cards").toggle(1000);
+		});
+	});		
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>
